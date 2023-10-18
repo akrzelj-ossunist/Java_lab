@@ -1,4 +1,4 @@
-package Header;
+package oss.akrzelj.color;
 
 /*
  * Copyright (c) 1995, 2021, Oracle and/or its affiliates. All rights reserved.

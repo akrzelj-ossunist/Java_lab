@@ -1,4 +1,4 @@
-package Header;
+package oss.akrzelj.color;
 
 
 public class Main {
@@ -11,6 +11,7 @@ public class Main {
         float[] hsbCode = new float[3];
         double[] hsl = Color.RGBtoHSL(c.getRed(), c.getGreen(), c.getBlue());
         double[] cmyk = Color.RGBtoCMYK(c.getRed(), c.getGreen(), c.getBlue());
+        System.out.println(cmyk[3]);
 
         Color.RGBtoHSB(c.getRed(), c.getGreen(), c.getBlue(), hsbCode);
         System.out.println("Boja u HEX formatu: 0x" + Integer.toHexString(c.getRGB() & 0x00FFFFFF));
